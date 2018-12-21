@@ -1,0 +1,45 @@
+body {
+    padding-top: 100px;
+}
+
+.group {
+    width: 800px;
+    font-size: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
+
+.first {
+    grid-template: 100% / 50% 50%;
+    height: 200px;
+}
+
+.second {
+    grid-template: 100% / 1fr 1fr 1fr;
+    height: 300px;
+}
+
+.box {
+    border: 1px solid black;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+
+.gray {
+    background: gray;
+}
+
+.black {
+    background: black;
+}
+
+.orange {
+    background: orange;
+}
